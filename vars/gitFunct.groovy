@@ -1,4 +1,5 @@
 def call() {
-     sh 'chmod +x ./testscript.sh'
-     sh './testscript.sh'
+     git "https://github.com/Diego-pgm/some_code.git"
+     sh "chmod +x ./testscript.sh"
+     sh "./testscript.sh"
 }
